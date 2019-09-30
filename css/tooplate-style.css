@@ -219,7 +219,7 @@ ul.cd-hero-slider {
 
 #about {
 	background-color: #f4f4f4;
-	padding: 80px 0px;
+	padding: 0px;
 }
 
 #about .section-heading {
@@ -301,7 +301,7 @@ ul.cd-hero-slider {
 
 
 #what-we-do {
-	background-image: url(../img/what-we-do-bg.png);
+	background-image: url(../img/what-we-do-bg.jpg);
 	width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
