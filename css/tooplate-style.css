@@ -295,11 +295,14 @@ ul.cd-hero-slider {
 
 #what-we-do {
   background-image: url(../img/what-we-do-bg.jpg);
+  background-position: bottom;
+  background-color: black;
   width: 100%;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
-  padding: 80px 0px;
+  padding: 80px 0;
   color: rgb(255, 255, 255);
 }
 
@@ -314,14 +317,14 @@ ul.cd-hero-slider {
   letter-spacing: 0.5px;
   line-height: 30px;
   margin-bottom: 25px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -1px 0 rgb(145, 145, 145), 0 1px rgb(145, 145, 145), 1px 0 rgb(145, 145, 145), 0 -1px rgb(145, 145, 145);
 }
 
 #what-we-do p {
   font-size: 20px;
   margin-bottom: 30px;
   color: rgb(255, 255, 255);
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -1px 0 rgb(145, 145, 145), 0 1px rgb(145, 145, 145), 1px 0 rgb(145, 145, 145), 0 -1px rgb(145, 145, 145);
 }
 
 #what-we-do ul li {
