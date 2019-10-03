@@ -26,11 +26,11 @@
 <body>
 
     <body>
-        <div class="header">
+        <div class="header active">
             <div class="container">
                 <nav class="navbar navbar-inverse" role="navigation">
                     <div class="navbar-header">
-                        <a class="navbar-brand text-uppercase" href="#">La casita de los sueños</a>
+                        <a class="navbar-brand text-uppercase" href="#"></a>
                         <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse"
                             data-target="#main-nav">
                             <span class="sr-only">Toggle navigation</span>
@@ -131,12 +131,12 @@
             </div>
         </div>
 
-        <div id="what-we-do">
+        <div id="what-we-do" class="page-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-7">
                         <div class="left-text">
-                            <h4>Llegamos a las escuelas rurales<br>Más apartadas del país</h4>
+                            <h2 class="text-uppercase">Llegamos a las escuelas rurales<br>Más apartadas del país</h2>
                             <p>Gochujang pitchfork post-ironic hammock kombucha fanny pack cronut. Raw denim
                                 chicharrones
                                 semiotics af truffaut pinterest. Distillery letterpress authentic adaptogen. Meditation
@@ -388,11 +388,22 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-12" style="margin-top: 10rem;margin-bottom: 6rem;">
+                            <div class="section-heading">
+                                <h4>Videos</h4>
+                                <div class="line-dec"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 embed-container" style="margin: auto">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/EbeK5S_sqfw" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-
         <div id="blog" class="page-section">
             <div class="container">
                 <div class="row">
@@ -405,96 +416,110 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="blog-item b1">
-                            <div class="thumb">
-                                <img src="./img/blog_01.jpg" alt="">
+                        <!--Caracol-->
+                        <div class="blog-item">
+                            <div class="thumb"
+                                onclick="window.open('https://noticias.caracoltv.com/es-el-momento-de-todos/en-biblioteca-rodante-artesanos-contagian-de-cultura-ninos-de-caqueta-0','_blank');">
+                                <img src="./img/caracol.PNG" alt="">
                                 <div class="text-content">
-                                    <h4>Negocios verdes</h4>
-                                    <span>Entidad: <em>Corpoamazonía</em> / Fecha: <em>11 de Junio de 2011</em> /
-                                        Categoría:
-                                        <em>Medio ambiente</em></span>
+                                    <h4>En biblioteca rodante, artesanos contagian de cultura a niños de Caquetá</h4>
+                                    <span>Entidad: <em>NOTICIAS CARACOl</em> / Fecha: <em>Septiembre 19, 2016</em>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Extra 1-->
+                        <div class="blog-item">
+                            <div class="thumb"
+                                onclick="window.open('https://caqueta.extra.com.co/noticias/local/la-casita-de-los-suenos-creatividad-para-el-aprendizaje-166591','_blank');">
+                                <img src="https://static.hsbnoticias.com/sites/default/files/styles/original/public/gallery/2015/10/dscn7962.jpg?itok=wRjc5TFR"
+                                    alt="">
+                                <div class="text-content">
+                                    <h4>‘La Casita de los Sueños’: creatividad para el aprendizaje</h4>
+                                    <span>Entidad: <em>DIARIO EXTRA</em> / Fecha: <em>Octubre 31, 2015</em>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Mi putumayo-->
+                        <div class="blog-item">
+                            <div class="thumb"
+                                onclick="window.open('http://miputumayo.com.co/2015/10/28/la-casita-de-los-suenos/','_blank');">
+                                <img src="https://miputumayo.com.co/wp-content/uploads/2015/10/Circreadi-1.jpg" alt="">
+                                <div class="text-content">
+                                    <h4>La Casita de los Sueños</h4>
+                                    <span>Entidad: <em>DIARIO MI PUTUMAYO</em> / Fecha: <em>Octubre 28, 2015</em>
+                                </div>
+                            </div>
+                        </div>
+                        <!--HSB Noticias-->
+                        <div class="blog-item">
+                            <div class="thumb"
+                                onclick="window.open('https://hsbnoticias.com/noticias/local/la-casita-de-los-suenos-creatividad-para-el-aprendizaje-166591','_blank');">
+                                <img src="https://static.hsbnoticias.com/sites/default/files/styles/original/public/gallery/2015/10/1rrrrrrrrrrrrrrrrrrrrrrrrrrr.jpg?itok=398_qOEk"
+                                    alt="">
+                                <div class="text-content">
+                                    <h4>‘La Casita de los Sueños’: creatividad para el aprendizaje</h4>
+                                    <span>Entidad: <em>HSB NOTICIAS</em> / Fecha: <em>Octubre 31, 2015</em>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="blog-item second-blog b2">
-                            <div class="thumb">
-                                <img src="./img/blog_02.jpg" alt="">
+                        <!--Univerisdad Externado-->
+                        <div class="blog-item">
+                            <div class="thumb"
+                                onclick="window.open('https://www.uexternado.edu.co/decanatura-cultural/mas-de-300-ninos-de-veredas-de-san-vicente-del-caguan-recibieron-un-ejemplar-de-poesia-colombiana-para-ninos/','_blank');">
+                                <img src="https://www.uexternado.edu.co/wp-content/uploads/2019/01/Nicolás-Virgües-y-mamá-Humberto-Salazar-Casita-de-los-sueños-2.jpg"
+                                    alt="">
                                 <div class="text-content">
-                                    <h4>Mejor stand en servicios ambientales</h4>
-                                    <span>Entidad: <em>Camara de comercio del Putumayo</em> / Fecha: <em>20 de Diciembre
-                                            2014</em> / Categoría: <em>Emprendimiento</em></span>
+                                    <h4>Más de 300 niños de veredas de San Vicente del Caguán recibieron un ejemplar de
+                                        “Poesía colombiana para niños”</h4>
+                                    <span>Entidad: <em>Universidad Externado de Colombia</em> / Fecha: <em>Junio 02,
+                                            2018</em>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-item b3">
-                            <div class="thumb">
-                                <img src="./img/blog_03.jpg" alt="">
+                        <!--Extra 2-->
+                        <div class="blog-item">
+                            <div class="thumb"
+                                onclick="window.open('https://caqueta.extra.com.co/noticias/local/la-paz-se-lee-en-san-vicente-del-caguan-303742','_blank');">
+                                <img src="https://static.hsbnoticias.com/sites/default/files/styles/original/public/gallery/2017/05/3-10rrrrrrrrrrrr.jpg?itok=y3baxXuF"
+                                    alt="">
                                 <div class="text-content">
-                                    <h4>Reconocimiento el adrave</h4>
-                                    <span>Entidad: <em>El tipo español</em> / Fecha: <em>16 Marzo 2010</em> / Categoría:
-                                        <em>Lectura</em></span>
+                                    <h4>La paz se lee en San Vicente del Caguán</h4>
+                                    <span>Entidad: <em>DIARIO EXTRA</em> / Fecha: <em>Mayo 11, 2017</em>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="pop">
-                            <span>✖</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis neque lacinia, porta
-                                nulla in, pellentesque ante. Vivamus in luctus mauris, non pharetra nibh. Morbi
-                                porttitor
-                                nisl sit amet velit pellentesque consequat. Etiam blandit libero turpis, id vehicula leo
-                                posuere a. In vel massa sollicitudin, tincidunt massa et, tincidunt ex.<br><br>Duis
-                                volutpat
-                                condimentum mollis. Sed eleifend libero ut viverra mattis. Suspendisse consectetur diam
-                                dolor, ut efficitur sem finibus vel. Vivamus tristique lacus sed dapibus varius. Fusce
-                                pharetra, quam quis congue pretium, ante dui imperdiet ipsum, eget lobortis leo leo sed
-                                diam.</p>
+                        <!--Adarve-->
+                        <div class="blog-item">
+                            <div class="thumb"
+                                onclick="window.open('https://mas.laopiniondemalaga.es/blog/eladarve/2014/10/25/la-casita-de-los-suenos/','_blank');">
+                                <img src="https://i2.wp.com/mas.laopiniondemalaga.es/blog/eladarve/wp-content/uploads/sites/11/2014/10/Casita21.jpg?resize=300%2C225&ssl=1"
+                                    alt="">
+                                <div class="text-content">
+                                    <h4>La Casita de los Sueños</h4>
+                                    <span>Entidad: <em>BLOB DE MIGUEL ANGEL SANTOS GUERRA</em> / Fecha: <em>Octubre 25,
+                                            2014 </em>
+                                </div>
+                            </div>
                         </div>
-                        <div class="pop2">
-                            <span>✖</span>
-                            <p>Praesent purus leo, aliquet et efficitur id, pulvinar scelerisque enim. Maecenas a arcu
-                                sagittis, ornare ante ut, suscipit lectus. Donec dolor ipsum, laoreet nec metus non,
-                                tempus
-                                elementum massa. Donec non elit rhoncus, vestibulum enim sed, rutrum arcu. Vestibulum et
-                                purus ac diam condimentum volutpat sed ac est. Phasellus interdum tortor sem. Quisque
-                                sit
-                                amet condimentum sem. Phasellus luctus, felis sit amet pulvinar luctus, lectus dui
-                                mattis
-                                tellus, et placerat nunc ante at lacus.<br><br>Vivamus vestibulum, nisi sed placerat
-                                accumsan, felis felis venenatis tortor, vel condimentum arcu neque vel mauris. Donec a
-                                magna
-                                gravida, egestas libero non, molestie massa. Integer ut dolor eget magna congue gravida
-                                ut
-                                at arcu. Vivamus maximus neque quis luctus tempus. Vestibulum consequat a justo id
-                                feugiat.
-                            </p>
-                        </div>
-                        <div class="pop3">
-                            <span>✖</span>
-                            <p>Nullam rhoncus, orci et iaculis sodales, quam lectus suscipit augue, ut auctor massa
-                                dolor id
-                                metus. Nulla porta ut diam sodales dignissim. Ut sit amet augue vel justo laoreet
-                                dignissim.
-                                Maecenas vitae sollicitudin eros. In commodo placerat cursus. Quisque malesuada, nisl ac
-                                lacinia commodo, justo eros maximus ex, quis cursus odio erat at neque. Sed tincidunt eu
-                                dolor eget posuere.<br><br>Curabitur sit amet elit sit amet ligula eleifend aliquam quis
-                                eget quam. Mauris id mi nec justo venenatis tincidunt at ac massa. Sed et volutpat nunc.
-                                Quisque at urna quam. Duis sit amet neque eget quam iaculis iaculis. Quisque maximus
-                                porta
-                                elementum. Nam ac mattis erat, quis accumsan odio.</p>
+                        <!--CC Putumayo-->
+                        <div class="blog-item">
+                            <div class="thumb"
+                                onclick="window.open('http://ccputumayo.org.co/site/la-casita-de-los-suenos-se-presenta-en-expo-florencia-2012/','_blank');">
+                                <img src="http://ccputumayo.org.co/site/wp-content/uploads/2012/12/La-Casita-de-los-Sueños-300x203.jpg"
+                                    alt="">
+                                <div class="text-content">
+                                    <h4>La Casita De Los Sueños Se Presenta En Expo Florencia 2012</h4>
+                                    <span>Entidad: <em>CÁMARA DE COMERCIO DEL PUTUMAYO</em> / Fecha: <em>Diciembre
+                                            10, 2012 </em>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <div id="fun-facts">
             <div class="container">
                 <div class="row">
@@ -525,8 +550,6 @@
                 </div>
             </div>
         </div>
-
-
         <div id="contact" class="page-section">
             <div class="container">
                 <div class="row">
@@ -578,8 +601,6 @@
                 </div>
             </div>
         </div>
-
-
         <footer>
             <div class="container">
                 <div class="row">
@@ -601,12 +622,12 @@
                                             class="fa fa-twitter"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/fundacioncasita/" target="_blank"><i
+                                    <a href="https://www.instagram.com/fundacioncasitasuenos/" target="_blank"><i
                                             class="fa fa-instagram"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.youtube.com/user/circreadi" target="_blank"><i
-                                            class="fa fa-youtube-play"></i></a>
+                                    <a href="https://www.youtube.com/channel/UC2sXCDZwoJR97T9YLYjN_LQ"
+                                        target="_blank"><i class="fa fa-youtube-play"></i></a>
                                 </li>
                             </ul>
                         </div>
