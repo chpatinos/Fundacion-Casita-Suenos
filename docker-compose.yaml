@@ -34,8 +34,8 @@ services:
     volumes:
       - ./:/usr/share/nginx/html:ro
     environment:
-      - VIRTUAL_HOST=fundacioncasitasuenos.tk,www.fundacioncasitasuenos.tk
-      - LETSENCRYPT_HOST=fundacioncasitasuenos.tk,www.fundacioncasitasuenos.tk
+      - VIRTUAL_HOST=fundacioncasitasuenos.org,www.fundacioncasitasuenos.org
+      - LETSENCRYPT_HOST=fundacioncasitasuenos.org,www.fundacioncasitasuenos.org
       - LETSENCRYPT_EMAIL=cahupa99@gmail.com
 volumes: 
   certs:
