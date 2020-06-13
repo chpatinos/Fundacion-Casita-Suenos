@@ -16,7 +16,7 @@ p {
   display: inline-block;
   background-color: #a2cf8d;
   padding: 12px 18px;
-  color: #fff;
+  color: rgb(46, 46, 46);
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -372,7 +372,7 @@ ul.cd-hero-slider {
 }
 
 .filter-categories ul li.active span {
-  color: #a2cf8d;
+  color: #646664;
 }
 
 .project-item {
@@ -544,7 +544,7 @@ ul.cd-hero-slider {
 .fact-item .counter {
   font-size: 24px;
   font-weight: 700;
-  color: #a2cf8d;
+  color: #68835b;
 }
 
 .fact-item span {
@@ -553,7 +553,7 @@ ul.cd-hero-slider {
   font-style: 13px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: #7a7a7a;
+  color: #4b4b4b;
 }
 
 /* CONTACT US */
@@ -616,7 +616,7 @@ ul.cd-hero-slider {
   display: inline-block;
   background-color: #a2cf8d;
   padding: 12px 18px;
-  color: #fff;
+  color: rgb(78, 78, 78);
   font-size: 11px;
   letter-spacing: 1px;
   font-weight: 500;
@@ -961,4 +961,8 @@ body.lb-disable-scrolling {
   footer ul {
     float: none;
   }
+}
+
+#contacto label {
+  color: #5a5a5a
 }
